@@ -42,7 +42,7 @@ return "It's great to meet you " + d.getFirstName() + d.getLastName() + " !" + "
         d1.setPhoneNumber("301-300-3000");
         d1.setEmail("email@gmail.edu");
 
-         model.addAttribute("person", d);
+         model.addAttribute("person", d1);
         //System.out.println("It's great to meet you " + d.getFirstName() + d.getLastName() + " !" + "Can I call you " + d.getFirstName());
 
         //System.out.println("our phone number is  " + d.getPhoneNumber() + " ,  " + "and your e-mail address is " + d.getEmail());
