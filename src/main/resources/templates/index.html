@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+<p th:inline="text">It's great to meet you [[${person.firstName}]] [[${person.lastName}]]  ! Can I call you [[${person.firstName}]].<br/>
+    Your phone number is  [[${person.phoneNumber}]] , and your e-mail address is [[${person.email}]]<br/>
+</p>
+
+</body>
+</html>
